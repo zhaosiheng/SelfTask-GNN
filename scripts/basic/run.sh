@@ -18,7 +18,7 @@ python ./src/train_ssl.py \
     --sampling_percent 1 \
     --dropout 0.5 \
     --normalization AugNormAdj --task_type semi \
-    --ssl AttributeMask \
+    --ssl PairwiseDistance \
     --lambda_ 10 \
     --train_size 0 \
     --param_searching 1 \
